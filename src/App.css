@@ -1,0 +1,41 @@
+.register,.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  
+}
+
+/* .allTaskContainer{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid blue;
+  margin: 50px;
+  padding: 20px;
+  width: fit-content;
+  justify-content:space-around;
+  gap: 60px;
+  
+} */
+
+table,thead,tbody,tr,th,td{
+   /* border: 1px solid black;
+   border-collapse: collapse; */
+   padding: 30px;
+   text-align: center;
+}
+
+th{
+  border-bottom: 1px solid black;
+}
+
+.createForm{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+
+}
